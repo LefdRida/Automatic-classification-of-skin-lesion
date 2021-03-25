@@ -1,6 +1,8 @@
 # Attention : il faut enregistrer ce fichier dans un dossier qui contient les images et le fichier data.csv
 # sinon vous auriez une erreur lors de l'éxecution.
 
+# Warning: you should save this code in a folder that contains the images and the file data.csv. 
+
 import numpy as np 
 import matplotlib.pyplot as plt 
 import pandas as pd 
