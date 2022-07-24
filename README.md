@@ -1,3 +1,3 @@
-# Automatic classification of skin leasion
+# Automatic classification of skin lesion
 
 Classification of skin lesion images through machine learning approach
