@@ -16,3 +16,14 @@ For this purpose wa have applied classification algorithm on a data set where ea
 <p align="center">
 <img  src="https://github.com/LefdRida/Automatic-classification-of-skin-lesion/blob/main/images/sample_of_data.JPG" height="400" />
 </p>
+
+Each sample has a label of 0 or 1 in a csv file.
+
+## Features extraction
+
+As we have used classical machine learning models (i.e non deep learning models), we have extracted features from the images at our disposal.
+  - from original image, we have extracted texture descriptors by applying LBP algorithm on the image. The output of this algorithm is a vector of dimension (256,1). also we have extracted the number of colors existed in the tumor (TODO: add ref of color table). 
+  - from segmented image we have extracted geometrical features such as area, perimeter, diameter (TODO: add other features). from binary image, we have extracted 11 features.
+  - from superpixel images we have extracted 1 feature which is the number of superpixel.
+ 
+ ## Models & results
