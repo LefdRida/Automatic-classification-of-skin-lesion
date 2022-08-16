@@ -14,5 +14,5 @@ For this purpose wa have applied classification algorithm on a data set where ea
   - Superpixel image
   
 <p align="center">
-<img  src="https://github.com/LefdRida/Automatic-classification-of-skin-lesion/blob/main/images/sample_of_data.JPG" height="400" width="700"/>
+<img  src="https://github.com/LefdRida/Automatic-classification-of-skin-lesion/blob/main/images/sample_of_data.JPG" height="400" />
 </p>
