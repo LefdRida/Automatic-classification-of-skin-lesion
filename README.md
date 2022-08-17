@@ -27,3 +27,17 @@ As we have used classical machine learning models (i.e non deep learning models)
   - from superpixel images we have extracted 1 feature which is the number of superpixel.
  
  ## Models & results
+
+In this project, we have used only machine learning algorithm for binary classification such as :
+  - SVM
+  - Logistic regression 
+  - Decision Tree 
+  - Naive baysian model 
+  - SGD classifier: this means linear classifier with SGD as optimization algorithm for training
+  
+The traning has been done with a dataset where every sample has 269 features. The perfomances of the models on the test set are as follows:
+
+<p align="center">
+<img  src="https://github.com/LefdRida/Automatic-classification-of-skin-lesion/blob/main/images/performance.JPG" height="400" />
+</p>
+
