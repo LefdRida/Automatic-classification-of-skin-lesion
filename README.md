@@ -33,11 +33,15 @@ In this project, we have used only machine learning algorithm for binary classif
   - Logistic regression 
   - Decision Tree 
   - Naive baysian model 
-  - SGD classifier: this means linear classifier with SGD as optimization algorithm for training
+  - SGD classifier: this means linear classifiers with SGD as optimization algorithm for training
   
 The traning has been done with a dataset where every sample has 269 features. The perfomances of the models on the test set are as follows:
 
 <p align="center">
 <img  src="https://github.com/LefdRida/Automatic-classification-of-skin-lesion/blob/main/images/performance.JPG" height="400" />
 </p>
+
+The results shows that SVM performs well on our problem and has the highest accuracy and F-score. 
+Some other steps could be tried to improve model accuracy such reduce the dimensionality by a PCA, apply some image processing algorithm on the original images before features extraction step or use other algorithm for feature engineering.
+The use of Deep Learning model have not been done in this project, but applying transfer learning on our problem with a neural network for image classification such as VGG 19, InceptionNet or RestNet could lead to better results.
 
