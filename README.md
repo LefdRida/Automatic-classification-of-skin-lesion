@@ -42,6 +42,8 @@ The traning has been done with a dataset where every sample has 269 features. Th
 </p>
 
 The results shows that SVM performs well on our problem and has the highest accuracy and F-score. 
+
 Some other steps could be tried to improve model accuracy such reduce the dimensionality by a PCA, apply some image processing algorithm on the original images before features extraction step or use other algorithm for feature engineering.
+
 The use of Deep Learning model have not been done in this project, but applying transfer learning on our problem with a neural network for image classification such as VGG 19, InceptionNet or RestNet could lead to better results.
 
